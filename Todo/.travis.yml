@@ -22,8 +22,5 @@ before_script:
   - sleep 3
   - fluxbox >/dev/null 2>&1 &
 
- addons:
-  browserstack:
-    username: "yli2"
-    access_key: "GUUxM7CquZTkLkAkE3xP"
+ 
 
