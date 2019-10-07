@@ -1,11 +1,10 @@
 language: node_js
 node_js:
-  - 7
+  - "node"
+script:
+  - npm run lint
+  - npm run test
 
-before_install:
-  - stty cols 80
-
-dist: trusty
 sudo: required
 
 addons:
@@ -21,6 +20,3 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3
   - fluxbox >/dev/null 2>&1 &
-
- 
-
