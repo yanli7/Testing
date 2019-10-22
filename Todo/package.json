@@ -4,7 +4,7 @@
   "description": "ToDo List",
   "main": "ToDo.js",
   "scripts": {
-    "test":  "testcafe chrome,firefox tests/testCafe.js"
+    "test":  "testcafe chrome,firefox tests/testCafe.js, jasmine-node tests/ToDoSpec.js"
   },
   "author": "yli",
   "license": "ISC"
